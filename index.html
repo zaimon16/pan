@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid" style="background-color: #ffb545d5" >
+          <img class="navbar-brand" src="che.png" width="4%" style="border-radius: 50%;" >
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="row" aria-live="" href="#carouselExample"> variedad de croissant</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#cowle">compra tu croissant</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#notdf">mas informacion</a>
+              </li>
+
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="ingresar" aria-label="ingresar">
+              <button class="btn btn-outline-success" type="submit">buscar</button>
+            </form>
+          </div>
+        </div> 
+      </nav>
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <center><img src="croissant-chocolate.jpg" class="d-block w-90" height="700px"> </center> 
+          </div>
+          <div class="carousel-item">
+            <center><img src="mora.jpg" class="d-block w-90" height="700px" width="700px" ></center>
+          </div>
+          <div class="carousel-item">
+            <center><img src="croissant-queso.jpg" class="d-block w-90" alt="..."></center>
+          </div>
+          <div class="carousel-item">
+            <center><img src="oregano sjsjsj.jpg" class="d-block w-90" alt="..."></center>
+          </div>
+          <div class="carousel-item">
+            <center><img src="clasico.webp" class="d-block w-98" style="width: 800px;" height="689px"></center>
+          </div>
+        
+
+        </div>
+      </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button><br><br><br>
+      </div>
+      <center><br><br>
+        <div class="row" id="cowle" >
+            <div class="col-6 col-md-7">
+                <div class="card" style="width: 18rem;">
+                    <img src="croissant-chocolate.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">croissant de chocolate</h5>
+                        <p class="card-text">dulce y delisioso ¿hace falta algo mas?</p>
+                        
+                        <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Comprar
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">¡ESTAS APUNTO DE COMPRAR CONFIRMA!</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="croissant-chocolate.jpg" style="width: 400px; height: 300px;">
+        (recuerde despespues de comprar precionar confirmar y despues la X)
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">rechazar</button>
+        <button type="button" class="btn btn-primary">aceptar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<br><br>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-5">
+                <div class="card" style="width: 18rem;">
+                    <img src="queso.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">croissant queso</h5>
+                        <p class="card-text">con salsa bechamel y queso gratinado una delicia</p>
+<!-- Button trigger moda2 -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModa1">
+  comprar
+</button>
+
+<!-- Moda2 -->
+<div class="modal fade" id="exampleModa1" tabindex="-1" aria-labelledby="exampleModalLabe1" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">¡ESTAS APUNTO DE COMPRAR CONFIRMA!</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="queso.jpg" style="width: 400px; height: 300px;">
+        (recuerde despespues de comprar precionar confirmar y despues la X)
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">rechazar</button>
+        <button type="button" class="btn btn-primary">aceptar</button>
+      </div>
+    </div>
+  </div>
+</div>
+                    </div>
+                </div>
+            </div>
+    </center><br><br><br>
+    <center> <br><br><br>
+        <div class="row">
+            <div class="col-6 col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="mora.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">croissant de mora</h5>
+                        <p class="card-text">savor sitrico y dulzaceo con mermelada dentro </p>
+                        <!-- Button trigger moda3 -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModa3">
+  comprar
+</button>
+
+<!-- Moda3 -->
+<div class="modal fade" id="exampleModa3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">¡ESTAS APUNTO DE COMPRAR CONFIRMA! </h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="mora.jpg" style="width: 400px; height: 300px;">
+        (recuerde despespues de comprar precionar confirmar y despues la X)
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">rechazar</button>
+        <button type="button" class="btn btn-primary">aceptar</button>
+      </div>
+    </div>
+  </div>
+</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="oregano sjsjsj.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">croissant oregano</h5>
+                        <p class="card-text">aromatico y salado algo delicado pero delicioso</p>
+                        <!-- Button trigger moda4 -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModa4">
+  comprar
+</button>
+
+<!-- Moda4 -->
+<div class="modal fade" id="exampleModa4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">¡ESTAS APUNTO DE COMPRAR CONFIRMA! </h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="oregano sjsjsj.jpg" style="width: 400px; height: 300px;">
+        (recuerde despespues de comprar precionar confirmar y despues la X)
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">rechazar</button>
+        <button type="button" class="btn btn-primary">aceptar</button>
+      </div>
+    </div>
+  </div>
+</div>                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="clasico.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">croissant-queso </h5>
+                        <p class="card-text">es clasico y no tiene nada fuera de lo comun pero es delicioso</p>
+                        <!-- Button trigger moda5 -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModa5">
+  comprar
+</button>
+
+<!-- Moda5 -->
+<div class="modal fade" id="exampleModa5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">¡ESTAS APUNTO DE COMPRAR CONFIRMA! </h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="clasico.webp" style="width: 400px; height: 300px;">
+        (recuerde despespues de comprar precionar confirmar y despues la X)
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">rechazar</button>
+        <button type="button" class="btn btn-primary">aceptar</button>
+      </div>
+    </div>
+  </div>
+</div>        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </center><br><br><br>
+    <center>
+        <div class="row">
+            <div class="col-6 col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="jamon.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">criasant con jamon y queso </h5>
+                        <p class="card-text">tiene jamon y queso 2 delicias sin igual </p>
+                        <!-- Button trigger moda6 -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModa6">
+  comprar
+</button>
+
+<!-- Moda6 -->
+<div class="modal fade" id="exampleModa6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">¡ESTAS APUNTO DE COMPRAR CONFIRMA! </h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="jamon.jpeg" style="width: 400px; height: 300px;">
+        (recuerde despespues de comprar precionar confirmar y despues la X)
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">rechazar</button>
+        <button type="button" class="btn btn-primary">aceptar</button>
+      </div>
+    </div>
+  </div>
+</div>          
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="verduras.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">croissant de verduras</h5>
+                        <p class="card-text">saludable y delicioso muy bueno para el dia a dia</p>
+                        <!-- Button trigger moda7 -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModa7">
+  comprar
+</button>
+
+<!-- Modal7 -->
+<div class="modal fade" id="exampleModa7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">¡ESTAS APUNTO DE COMPRAR CONFIRMA! </h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="verduras.jpeg" style="width: 400px; height: 300px;">
+        (recuerde despespues de comprar precionar confirmar y despues la X)
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">rechazar</button>
+        <button type="button" class="btn btn-primary">aceptar</button>
+      </div>
+    </div>
+  </div>
+</div>                                  
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="pollo.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">croissant de pollo </h5>
+                        <p class="card-text">pollo simplemente polo </p>
+                                            <!-- Button trigger moda8 -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModa8">
+  comprar
+</button>
+
+<!-- Modal8 -->
+<div class="modal fade" id="exampleModa8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">¡ESTAS APUNTO DE COMPRAR CONFIRMA! </h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="pollo.jpg" style="width: 400px; height: 300px;">
+        (recuerde despespues de comprar precionar confirmar y despues la X)
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">rechazar</button>
+        <button type="button" class="btn btn-primary">aceptar</button>
+      </div>
+    </div>    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </center>
+
+<hr>
+<div id="notdf" class="container px-4 text-center" style="background-color: #ffb545d5">
+  <div class="row gx-5">
+    <div class="col">
+     <div class="p-3"><div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">NOMBRES</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="NOMBRES">
+      <label for="exampleFormControlInput1" class="form-label">APELLIDOS</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="APELLIDOS">
+      <label for="exampleFormControlInput1" class="form-label">DIRECCION</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="DIRECCION">
+      <label for="exampleFormControlInput1" class="form-label">CELULAR DE CONTACTO</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="NUMERO CELULAR">
+    </div>
+    <div></div>
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div></div>
+    </div>
+    <div class="col">
+      <div class="p-3"><div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              hacerca del servicio
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">La panadería es el arte de hacer, mezclar, amasar y hornear diferentes ingredientes para obtener pan de todos los tamaños, formas, texturas y sabores, los cuales se comercializan, venden y distribuyen en recintos o locales que también llevan este nombre8</LINk></div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              informacion de los croissant
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">El Croissant está hecho manualmente de capas finas y uniformes de masa y mantequilla y debes poder observar un buen volumen y una textura abierta y similar al panal de miel.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              ¿por que los croissant son tan deliciosos? 
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              Entre las propiedades nutricionales del croissant cabe destacar que tiene los siguientes nutrientes: hierro, proteínas, calcio, fibra, potasio, zinc, carbohidratos, magnesio, y vitamina A, vitamina B1,B2, B3, B5, B6, B7, B9, B12, vitamina C, vitamina D, vitamina E, y azúcar.</div>
+              <div class="accordion-body"> </div>
+          </div>
+        </div>
+      </div></div>
+    </div>
+  </div>
+</div>
+<a href="#" target="_blank" id="cont">
+  <img src="tumblr.png" width="40px" alt="">
+</a>
+<a href="#" target="_blank">
+  <img src="wasa.png" width="40px" alt="">
+</a>
+<a href="#" target="_blank">
+  <img src="faceboock.png" width="40px" alt="">
+</a>
+<a href="#" target="_blank">
+  <img src="insta.jpeg" width="40px" alt="">
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+</body>
+</html>
